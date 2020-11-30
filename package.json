@@ -1,0 +1,38 @@
+{
+    "name": "react-typescript-todo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --open",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tommykindle/tsTodo.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tommykindle/tsTodo/issues"
+    },
+    "homepage": "https://github.com/tommykindle/tsTodo#readme",
+    "dependencies": {
+        "@babel/core": "^7.12.9",
+        "@babel/preset-env": "^7.12.7",
+        "@babel/preset-react": "^7.12.7",
+        "@babel/preset-typescript": "^7.12.7",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "babel-loader": "^8.2.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "webpack": "^5.9.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-merge": "^5.4.0"
+    }
+}
